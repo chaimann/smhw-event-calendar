@@ -5,6 +5,7 @@ $(function() {
     aspectRatio: 7,
     defaultView: 'basicWeek',
     events: '/events.json',
+    firstDay: 1,
     selectable: true,
     select: function(start, end, jsEvent) {
       var newEvtTitle = prompt('Enter event title');
