@@ -2,6 +2,8 @@ $(function() {
   var $calendar = $('#calendar');
 
   $calendar.fullCalendar({
+    aspectRatio: 7,
+    defaultView: 'basicWeek',
     events: '/events.json',
     selectable: true,
     select: function(start, end, jsEvent) {
